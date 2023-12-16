@@ -19,4 +19,4 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: YOUR_PROJECT_NAME # e.g. 'my-project'
           directory: YOUR_DIRECTORY_OF_STATIC_ASSETS # e.g. 'dist'
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          gitHubToken: ${{ secrets.GH_TOKEN }}
